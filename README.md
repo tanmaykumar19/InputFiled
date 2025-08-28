@@ -13,8 +13,11 @@ A React + TypeScript component library featuring:
 ## Folder Structure
 
 inputfield/
-├─ public/
-│  └─ index.html
+├─ node_modules
+├─ public
+├─.storybook
+│  ├─main.js
+│  ├─preview.js
 ├─ src/
 │  ├─ components/
 │  │  ├─ InputField.tsx
@@ -25,10 +28,11 @@ inputfield/
 │  └─ index.css
 ├─ .gitignore
 ├─ package.json
-├─ tsconfig.json
+├─ index.html
+├─ eslint.config.js
 ├─ vite.config.ts
-├─ postcss.config.cjs
-└─ tailwind.config.cjs
+├─ package-lock.json
+└─ README.md
 
 
 
@@ -40,9 +44,13 @@ inputfield/
 
 ```bash
 git clone https://github.com/yourusername/inputfield.git
+
 cd inputfield
+
 npm install
+
 npm run dev
+
 npm run storybook
 
 Approach
